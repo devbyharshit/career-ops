@@ -1,0 +1,229 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, urlcolor=MidnightBlue, linkcolor=red]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+\usepackage{stix2}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\begin{center}
+    {\Huge \scshape Harshit Anand} \\ \vspace{1pt}
+    New Delhi, India \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 956-090-7202 ~ \href{mailto:harshitanand283@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ harshitanand283@gmail.com} ~ 
+    \href{https://linkedin.com/in/devbyharshit/}{\raisebox{-0.2\height}\faLinkedin\ devbyharshit}  ~
+    \href{https://github.com/devbyharshit}{\raisebox{-0.2\height}\faGithub\ devbyharshit}
+    \vspace{-8pt}
+\end{center}
+
+%-----------SUMMARY---------------
+\section{Summary}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \item\small\emph{Experienced Full Stack Engineer with 5 years of developing scalable web applications using modern technologies like ReactJs, TypeScript, NodeJs, and NextJs. Skilled in building modular, maintainable systems and collaborating across functions to deliver performant, accessible, and secure software. Proven ability to drive UI/UX excellence, optimize application performance, and contribute to engineering initiatives such as micro-frontend adoption and component library design.}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{IIITD} \textit{(Indraprastha Institute of Information Technology)}}{July 2016 -- May 2020}
+      {Bachelor of Technology in Computer Science \& Engineering}{Okhla, New Delhi}
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+      {PUBLICIS SAPIENT}{March 2024 -- current}
+      {Senior Experience Engineer | NextJs + Tanstack Query + Redux}{Gurugram, India}
+      \resumeItemListStart
+        \resumeItem{\textbf{Remediated critical security vulnerabilities} flagged by \textbf{Azure} and \textbf{Dependabot}, \textbf{decreasing attack surface by 25\%} and ensuring compliance with security standards.}
+        \resumeItem{\textbf{Integrated SSO} (single sign-on) and \textbf{role-based access control} to secure access for \textbf{10,000+ external users}, improving authentication flow and streamlining login experience.}
+        \resumeItem{\textbf{Led end-to-end delivery of the Account Manager micro-frontend} (user provisioning, updates, deletion) \textbf{within 1 month}, successfully replacing a legacy system without disruption.}
+        \resumeItem{\textbf{Improved performance and SEO} by leveraging \textbf{NextJs SSR} (server-side rendering) and \textbf{SSG} (static site generation), resulting in a \textbf{25\% boost in initial page load speed} and core web vitals.}
+        \resumeItem{Diagnosed and \textbf{resolved frontend-blocking issues} related to backend APIs in Java (Spring Boot) microservices and SQL databases, \textbf{reducing integration delays by 20\%}.}
+    \resumeItemListEnd
+
+   \resumeSubheading
+      {PRACTICE BY NUMBERS}{March 2023 -- January 2024}
+      {Software Engineer | ReactJs + Redux}{Gurugram, India}
+      \resumeItemListStart
+        \resumeItem{\textbf{Resolved high-impact production issues} through \textbf{rapid hotfixes}, contributing to \textbf{reduced customer churn} and improved retention.}
+        \resumeItem{\textbf{Led development and maintenance} of the \textbf{Patient Portal} (\href{https://practicenumbers.com/}{website}), delivering a responsive UI across devices and meeting all pre-launch criteria for a potential \textbf{user base of 100,000+}.}
+        \resumeItem{\textbf{Boosted web-app's performance by 50\%} through code splitting, lazy loading, and intelligent data fetching, validated via \textbf{Google Lighthouse}.}
+        \resumeItem{\textbf{Integrated Google Translate APIs} to enable localization, resulting in a \textbf{23\% increase in global accessibility}.}
+        \resumeItem{\textbf{Reduced production bugs by 30\%} via code reviews and strict adherence to best practices.}
+        \resumeItem{Automated unit, module, and integration testing with \textbf{Jest} and \textbf{React Testing Library} (RTL), \textbf{cutting testing time by 40\%} and \textbf{raising coverage by 20\%}.}
+        \resumeItem{\textbf{Mentored 2 junior developers} and \textbf{trained 3 interns}, increasing team velocity and onboarding efficiency.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {RAPIPAY FINTECH}{July 2020 -- March 2023}
+      {Software Engineer | Full-Stack (MERN)}{Noida, India}
+      \resumeItemListStart
+        \resumeItem{\textbf{Integrated Firebase Cloud Messaging} to enable real-time push notifications, \textbf{increasing agent engagement by 20\%}.}
+        \resumeItem{\textbf{Developed Payment Gateway Integration API} using \textbf{NodeJs} + \textbf{Express} as middleware between React frontend and Java backend, \textbf{handling 10,000+ RPM} for AEPS, BBPS, and CICO payment systems while \textbf{reducing transaction processing latency by 10\%}.}
+        \resumeItem{\textbf{Introduced Git-based} workflows with pull requests and conflict resolution, improving collaboration and version control for \textbf{100+ shared components}.}
+        \resumeItem{\textbf{Delivered 1,000+ bug fixes} and \textbf{managed 100+ reusable web components} for the \textbf{Agent Portal} (\href{https://agent.rapipay.com/}{website}), supporting seasonal UI updates and redesigns.}
+        \resumeItem{\textbf{Mentored 3 team members}, accelerating their technical growth and contributing to stronger team performance.}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \vspace{-5pt}
+      \resumeProjectHeading
+          {\textbf{dsg-shared Components} $|$ \emph{ReactJs, Typescript, Material-UI, Storybook}}{September 2024}
+          \resumeItemListStart
+            \resumeItem{Enhanced component library functionality by developing and maintaining 15+ modular React components with TypeScript integration, reducing code duplication by 40\% and improving development velocity across 10+ enterprise applications.}
+            \resumeItem{Optimized development workflow by creating 25+ comprehensive Storybook stories and implementing 90\%+ test coverage using React Testing Library.}
+            \resumeItem{Integrated Material-UI components with 100\% WCAG accessibility compliance.}
+          \resumeItemListEnd
+          \vspace{-18pt}
+      \resumeProjectHeading
+          {\textbf{Micro-Frontend Services - Account Manager} $|$ \emph{ReactJs, TypeScript, Material-UI}}{January 2025}
+          \resumeItemListStart
+            \resumeItem{Developed and deployed two production-grade micro-frontend services using the internal @optum-rx-platform/cli template.}
+            \resumeItem{Implemented robust forms using Formik and Yup, ensuring strong input validation and reducing input errors by 30\%.}
+            \resumeItem{Leveraged TanStack Query for efficient data fetching, caching, and background updates, reducing API-related bugs and improving perceived load times by 25\%.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Frontend}{: ReactJs, NextJs, Redux, TypeScript, TanStack Query, Formik, MUI, Storybook, Yup, Tailwind, Angular} \\
+     \textbf{Backend}{: NodeJs, Express, Lodash, MongoDB, GraphQL, Firebase, REST APIs, Java} \\
+     \textbf{Testing}{: Jest, RTL, Cypress, Mockito} \\
+     \textbf{DevOps}{: Docker, GitHub Actions, Firebase, Lerna, Vercel, Netlify} \\
+     \textbf{Other}{: Webpack, RxJS, Bash, Postman, Husky, Prettier, EsLint, Jira, Rally, Git}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+\end{document}
