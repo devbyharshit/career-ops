@@ -191,7 +191,7 @@ career-ops/
 │   └── profile.example.yml      # 個人檔案範本
 ├── modes/                       # 14 個技能模式
 │   ├── _shared.md               # 共用情境（在此自訂）
-│   ├── oferta.md                # 單一職缺評估
+│   ├── offer.md                # 單一職缺評估
 │   ├── pdf.md                   # PDF 生成
 │   ├── scan.md                  # 平台掃描器
 │   ├── batch.md                 # 批次處理

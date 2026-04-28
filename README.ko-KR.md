@@ -188,7 +188,7 @@ career-ops/
 │   └── profile.example.yml      # 프로필 템플릿
 ├── modes/                       # 14개 스킬 모드
 │   ├── _shared.md               # 공유 컨텍스트 (커스터마이즈 가능)
-│   ├── oferta.md                # 개별 평가
+│   ├── offer.md                # 개별 평가
 │   ├── pdf.md                   # PDF 생성
 │   ├── scan.md                  # 포털 스캐너
 │   ├── batch.md                 # 일괄 처리

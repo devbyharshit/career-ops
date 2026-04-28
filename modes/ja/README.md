@@ -50,7 +50,7 @@ language:
 | ファイル | 翻訳元 | 用途 |
 |---------|-------|------|
 | `_shared.md` | `modes/_shared.md` (EN) | 共通コンテキスト、アーキタイプ、グローバルルール、日本市場の特記事項 |
-| `kyujin.md` | `modes/oferta.md` (ES) | 求人の完全評価（A-F ブロック） |
+| `kyujin.md` | `modes/offer.md` (ES) | 求人の完全評価（A-F ブロック） |
 | `oubo.md` | `modes/apply.md` (EN) | 応募フォーム記入のライブアシスタント |
 | `pipeline.md` | `modes/pipeline.md` (ES) | URL のインボックス / 求人の Second Brain |
 

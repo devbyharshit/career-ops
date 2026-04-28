@@ -81,7 +81,7 @@ Use the template in `cv-template.html`. Replace the `{{...}}` placeholders with 
 | `{{SUMMARY_TEXT}}` | Personalized summary with keywords |
 | `{{SECTION_COMPETENCIES}}` | Core Competencies / Competencias Core |
 | `{{COMPETENCIES}}` | `<span class="competency-tag">keyword</span>` × 6-8 |
-| `{{SECTION_EXPERIENCE}}` | Work Experience / Experiencia Laboral |
+| `{{SECTION_EXPERIENCE}}` | Work Experience |
 | `{{EXPERIENCE}}` | HTML of each job with reordered bullets |
 | `{{SECTION_PROJECTS}}` | Projects / Proyectos |
 | `{{PROJECTS}}` | HTML of top 3-4 projects |
