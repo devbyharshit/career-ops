@@ -98,14 +98,15 @@ Analyze the job posting for signals that indicate whether this is a real, active
 - Apply button state (active / closed / missing / redirects to generic page)
 - If URL redirected to generic careers page, note it
 
-**2. Description Quality** (from JD text):
+**2. Description Quality (Specificity Density & Realism)** (from JD text):
 - Does it name specific technologies, frameworks, tools?
+- Are the requirements highly specific or generic copy-paste boilerplate? Fake/Pipeline JDs often have low "specificity density". Real, urgent JDs list specific project constraints.
 - Does it mention team size, reporting structure, or org context?
 - Are requirements realistic? (years of experience vs technology age)
 - Is there a clear scope for the first 6-12 months?
-- Is salary/compensation mentioned?
-- What ratio of the JD is role-specific vs generic boilerplate?
+- Is salary/compensation mentioned? What is the *true realistic budget*? (Often the bottom 30-40% of the stated range).
 - Any internal contradictions? (entry-level title + staff requirements, etc.)
+- Any toxic "red flag" language? (e.g., "fast-paced environment" = lack of process; "entrepreneurial spirit" = wearing 5 hats for the pay of 1).
 
 **3. Company Hiring Signals** (2-3 WebSearch queries, combine with Block D research):
 - Search: `"{company}" layoffs {year}` -- note date, scale, departments
